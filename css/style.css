@@ -1,0 +1,65 @@
+.background {
+}
+h2 {
+  color: rgb(1, 161, 161);
+}
+.first {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  justify-self: center;
+}
+.first .img {
+  padding-left: 35%;
+  width: 30%;
+}
+
+.first p {
+  font-family: "nanum gothic";
+  font-weight: 400;
+}
+.first h1 {
+  font-weight: 500;
+  color: rgba(95, 158, 160, 0.76);
+}
+.first h2 {
+  font-weight: 300;
+}
+.first img {
+  width: 50%;
+  height: auto;
+}
+.first-inner {
+  width: 70%;
+  margin: 2px;
+  padding: 3%;
+  border: 2px solid rgb(128, 126, 126);
+  background: white;
+}
+.second-bg {
+  background-image: linear-gradient(to bottom right, white, rgb(125, 189, 189));
+}
+.footer {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1% 0 1%;
+}
+.footer p {
+  font-weight: 400;
+  font-size: 15px;
+}
+.footer2 {
+display: flex;
+justify-content: flex-end;
+  padding: 0 1% 0 1%;
+}
+.footer2 .img {
+  background: transparent;
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
